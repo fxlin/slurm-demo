@@ -8,6 +8,8 @@
 #SBATCH --partition=gpu
 #SBATCH --nodelist=cheetah02
 #SBATCH --gres=gpu:2
+SBATCH --mail-type=BEGIN,END
+SBATCH --mail-user=xl6yq@virginia.edu
 
 source /etc/profile.d/modules.sh
 eval "$(conda shell.bash hook)"
