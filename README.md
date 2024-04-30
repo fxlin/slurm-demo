@@ -1,5 +1,11 @@
 # SLURM
 
+ref: 
+
+cf: https://www.cs.virginia.edu/wiki/doku.php?id=compute_slurm
+
+cf: https://docs-research-it.berkeley.edu/services/high-performance-computing/user-guide/running-your-jobs/scheduler-examples/
+
 ## Command lists
 * `sinfo`
 
@@ -23,7 +29,9 @@ gnolim       up 20-00:00:0      3   idle titanx[02-04]
 ```
 
 * `squeue`
+
 Check job status, e.g. `squeue |grep $USER`
+
 Ex
 ```
  JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
@@ -37,7 +45,7 @@ State: R-running, PD-pending. cf: https://curc.readthedocs.io/en/latest/running-
 * `sbatch`
 
 ## check SLRUM job output
-will write a file like "slurm-4369350.out" in current dir, with job ID.
+if not specifying output, will write a file like "slurm-4369350.out" in current dir, with job ID.
 (there's often seconds of delay)
 
 ## SLURM on conda with 
