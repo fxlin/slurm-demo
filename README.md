@@ -63,8 +63,21 @@ sbatch demo.sh
 ## Interactive jobs
 ```
 ijob -A xsel -p interactive --time=0-00:30:00 --gres=gpu:rtx2080:1 --mem=8G
+
+xl6yq@udc-ba37-32c1[RWKV-LM]$ ijob -A xsel -p interactive --time=0-00:30:00 --gres=gpu:rtx2080:1 --mem=8G
+salloc: Pending job allocation 62277848
+salloc: job 62277848 queued and waiting for resources
+
+
+salloc: job 62277848 has been allocated resources
+salloc: Granted job allocation 62277848
+salloc: Waiting for resource configuration
+salloc: Nodes udc-aw37-37 are ready for job
+
 ```
 In command above, capped at 30 min
+
+
 
 ## Direct access to a server
 This is for debugging. You shall not use it as an altertive `ssh`
