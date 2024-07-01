@@ -60,6 +60,11 @@ CMAKE_ARGS="-DLLAMA_CUBLAS=on" FORCE_CMAKE=1 pip install --upgrade --force-reins
 sbatch demo.sh
 ```
 
+## Interactive jobs
+```
+ijob -A xsel -p interactive --time=0-00:30:00 --gres=gpu:rtx2080:1 --mem=8G
+```
+In command above, capped at 30 min
 
 ## Direct access to a server
 This is for debugging. You shall not use it as an altertive `ssh`
