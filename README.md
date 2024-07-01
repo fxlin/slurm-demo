@@ -7,6 +7,7 @@ cf: https://www.cs.virginia.edu/wiki/doku.php?id=compute_slurm
 cf: https://docs-research-it.berkeley.edu/services/high-performance-computing/user-guide/running-your-jobs/scheduler-examples/
 
 ## Command lists
+* `sbatch slurm-test-compsci.sh`
 * `sinfo`
 
 Ex output: Note "STATE" below
