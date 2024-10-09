@@ -3,9 +3,13 @@
 # https://www.cs.virginia.edu/computing/doku.php?id=compute_slurm
 
 # Run the training script with srun arguments
+
+export NGPUS=2
+export NNODES=2
+
 sbatch \
-    --nodes=2 \
-    --gres=gpu:2 \
+    --nodes=${NNODES} \
+    --gres=gpu:${NGPUS} \
     --cpus-per-task=8 \
     --mem=32GB \
     --time=12:00:00 \

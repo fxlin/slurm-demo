@@ -5,7 +5,7 @@ The job trains a simple CNN model (only 4MB of parameters) using the MNIST datas
 
 Login to "portal".
 
-### Submit a Job Using One Node (2 GPUs)
+### Submit a Job Using One Node
 
 ```bash
 xl6yq@portal10 (main)[cs-server]$ ./submit.sh 
@@ -15,7 +15,7 @@ xl6yq@portal10 (main)[cs-server]$ squeue
     327638         run-train.sh  PENDING (None)               0:00       (null) gres/gpu:2
 ```
 
-### Submit a Job Using Two Nodes (2 GPUs Each)
+### Submit a Job Using Two Nodes
 
 ```bash
 xl6yq@portal10 (main)[cs-server]$ ./submit-2nodes.sh 

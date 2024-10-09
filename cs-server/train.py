@@ -6,6 +6,11 @@ import torch
 import torch.nn.functional as F
 import torch.nn as nn
 from pytorch_lightning.callbacks import ModelCheckpoint
+import os
+
+# default values, 1 node, 1 gpu
+NGPUS = int(os.getenv("NUM_GPUS", 1))       # Number of GPUs per node
+NNODES = int(os.getenv("NUM_NODES", 1))
 
 # Define a simple CNN model
 class LitMNISTModel(pl.LightningModule):
@@ -63,9 +68,8 @@ if __name__ == "__main__":
     trainer = pl.Trainer(
         accelerator='gpu',        # Use GPU
         strategy='ddp',           # DistributedDataParallel strategy
-        devices=2,                # Number of GPUs per node
-        # num_nodes=2,              # Number of nodes
-        num_nodes=1,              # Number of nodes
+        devices=NGPUS,                # Number of GPUs per node
+        num_nodes=NNODES,              # Number of nodes
         max_epochs=5,             # Train for 5 epochs
         callbacks=[ModelCheckpoint(dirpath='checkpoints/', monitor='val_loss')]
     )
