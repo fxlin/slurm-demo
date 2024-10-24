@@ -16,14 +16,7 @@ eval "$(conda shell.bash hook)"
 conda activate slurm-demo
 module load cuda-toolkit-11.7.0
 
-
 python llm.py
-
-
-
-
-
-
 
 
 # Legacy
