@@ -44,7 +44,8 @@ if __name__ == "__main__":
     # source_directory = "/p/cavalier"  # Change this to your directory
     # source_directory = "/p/csd"  # Change this to your directory
     # source_directory = "/p/iterativeerror"  # Change this to your directory
-    source_directory = "/p/rosbot"
+    # source_directory = "/p/rosbot"
+    source_directory = "/home/xl6yq/workspace-rwkv/RWKV-LM/RWKV-v5/out"
     # source_directory = "/p/pd"
 
     # Extract the last segment of the source directory to use as the output file name
