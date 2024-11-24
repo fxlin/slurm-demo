@@ -1,0 +1,1492 @@
+========================================
+
+========================================
+/bin/sh: ../run_base_refrate_mytest-m64.0000/deepsjeng_r_base.mytest-m64: No such file or directory
+
+========================================
+
+========================================
+
+========================================
+
+========================================
+
+========================================
+/bin/sh: ../run_base_refrate_mytest-m64.0000/leela_r_base.mytest-m64: No such file or directory
+
+========================================
+
+========================================
+
+========================================
+
+========================================
+
+========================================
+
+========================================
+
+========================================
+
+========================================
+
+========================================
+
+========================================
+
+========================================
+
+========================================
+
+========================================
+h5watch error: unable to open dataset "/group/DSET_CMPD"
+
+========================================
+h5watch error: unable to open file "../WATCH.h5/DSET_CMPD"
+
+========================================
+h5watch error: error in processing <list_of_fields>
+
+========================================
+h5watch error: error in processing <list_of_fields>
+
+========================================
+h5watch error: error in processing <list_of_fields>
+
+========================================
+h5watch error: "/DSET_NONE" should be a chunked or virtual dataset
+
+========================================
+h5watch error: "/DSET_NOMAX" should have unlimited or max. dimension setting
+
+========================================
+h5watch error: error in processing <list_of_fields>
+
+========================================
+h5watch error: error in processing <list_of_fields>
+
+========================================
+h5watch error: no dataset specified
+
+========================================
+nosuchfile.h5: unable to open file
+
+========================================
+Error: --no-dangling-links must be used along with --follow-symlinks option!
+
+
+========================================
+Error: 'recursive' option not compatible with 'group info' option!
+
+
+========================================
+h5clear error: h5tools_fopen
+
+========================================
+h5clear warning: No cache image in the file
+
+========================================
+h5clear error: missing file name
+
+========================================
+h5stat error: Invalid threshold for small # of attributes
+
+========================================
+h5stat error: Invalid threshold for small # of attributes
+
+========================================
+h5stat error: Invalid threshold for small groups
+
+========================================
+h5stat error: missing file name
+
+========================================
+h5stat error: Invalid threshold for small datasets
+
+========================================
+h5stat error: unable to open file "notexist.h5"
+
+========================================
+h5stat error: unable to traverse objects/links in file "h5stat_err_old_fill.h5"
+
+========================================
+h5stat error: unable to traverse objects/links in file "h5stat_err_old_layout.h5"
+
+========================================
+h5stat error: unable to traverse objects/links in file "h5stat_err_refcount.h5"
+
+========================================
+h5format_convert error: unable to open file "nonexist.h5"
+
+========================================
+h5format_convert error: unable to downgrade dataset "/DSET_ERR"
+H5tools-DIAG: Error detected in HDF5:tools (version (number)) thread (IDs):
+  #000: (file name) line (number) in h5trav_visit(): traverse failed
+    major: Failure in tools library
+    minor: error in function
+  #001: (file name) line (number) in traverse(): H5Lvisit_by_name failed
+    major: Failure in tools library
+    minor: error in function
+
+========================================
+h5format_convert error: unable to open dataset "nonexist"
+
+========================================
+h5format_convert error: missing file name
+
+========================================
+h5format_convert error: No dataset name
+
+========================================
+H5tools-DIAG: Error detected in HDF5:tools (version (number)) thread (IDs):
+  #000: (file name) line (number) in h5diff(): treat dangling link as error
+    major: Failure in tools library
+    minor: error in function
+
+========================================
+H5tools-DIAG: Error detected in HDF5:tools (version (number)) thread (IDs):
+  #000: (file name) line (number) in h5diff(): Error: Object could not be found
+    major: Failure in tools library
+    minor: error in function
+
+========================================
+
+file1     file2
+---------------------------------------
+    x      x    /
+    x      x    /dynlibud
+
+group  : </> and </>
+0 differences found
+dataset: </dynlibud> and </dynlibud>
+0 differences found
+Warning: dataset </dynlibud> cannot be read, user defined filter is not available
+EXIT CODE: 2
+
+========================================
+h5copy error: group </g1> doesn't exist. Use -p to create parent groups.
+
+========================================
+HDF5-DIAG: Error detected in HDF5 (version (number)) thread (IDs):
+  #000: (file name) line (number) in H5Oopen(): unable to open object
+    major: Object header
+    minor: Can't open object
+  #001: (file name) line (number) in H5VL_object_open(): object open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #002: (file name) line (number) in H5VL__object_open(): object open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #003: (file name) line (number) in H5VL__native_object_open(): unable to open object by name
+    major: Object header
+    minor: Can't open object
+  #004: (file name) line (number) in H5O_open_name(): object not found
+    major: Object header
+    minor: Object not found
+  #005: (file name) line (number) in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #006: (file name) line (number) in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #007: (file name) line (number) in H5G__traverse_real(): special link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #008: (file name) line (number) in H5G__traverse_special(): user-defined link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #009: (file name) line (number) in H5G__traverse_ud(): traversal callback returned invalid ID
+    major: Symbol table
+    minor: Unable to find atom information (already closed?)
+  #010: (file name) line (number) in H5L__extern_traverse(): unable to open object
+    major: Links
+    minor: Can't open object
+  #011: (file name) line (number) in H5O_open_name(): object not found
+    major: Object header
+    minor: Object not found
+  #012: (file name) line (number) in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #013: (file name) line (number) in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #014: (file name) line (number) in H5G__traverse_real(): special link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #015: (file name) line (number) in H5G__traverse_special(): symbolic link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #016: (file name) line (number) in H5G__traverse_slink(): unable to follow symbolic link
+    major: Symbol table
+    minor: Object not found
+  #017: (file name) line (number) in H5G__traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #018: (file name) line (number) in H5G__traverse_slink_cb(): component not found
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (version (number)) thread (IDs):
+  #000: (file name) line (number) in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #001: (file name) line (number) in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #002: (file name) line (number) in H5G__traverse_real(): special link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #003: (file name) line (number) in H5G__traverse_special(): user-defined link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #004: (file name) line (number) in H5G__traverse_ud(): traversal callback returned invalid ID
+    major: Symbol table
+    minor: Unable to find atom information (already closed?)
+  #005: (file name) line (number) in H5L__extern_traverse(): unable to open object
+    major: Links
+    minor: Can't open object
+  #006: (file name) line (number) in H5O_open_name(): object not found
+    major: Object header
+    minor: Object not found
+  #007: (file name) line (number) in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #008: (file name) line (number) in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #009: (file name) line (number) in H5G__traverse_real(): special link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #010: (file name) line (number) in H5G__traverse_special(): user-defined link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #011: (file name) line (number) in H5G__traverse_ud(): traversal callback returned invalid ID
+    major: Symbol table
+    minor: Unable to find atom information (already closed?)
+  #012: (file name) line (number) in H5L__extern_traverse(): unable to open object
+    major: Links
+    minor: Can't open object
+  #013: (file name) line (number) in H5O_open_name(): object not found
+    major: Object header
+    minor: Object not found
+  #014: (file name) line (number) in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #015: (file name) line (number) in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #016: (file name) line (number) in H5G__traverse_real(): special link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #017: (file name) line (number) in H5G__traverse_special(): user-defined link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #018: (file name) line (number) in H5G__traverse_ud(): traversal callback returned invalid ID
+    major: Symbol table
+    minor: Unable to find atom information (already closed?)
+  #019: (file name) line (number) in H5L__extern_traverse(): unable to open object
+    major: Links
+    minor: Can't open object
+  #020: (file name) line (number) in H5O_open_name(): object not found
+    major: Object header
+    minor: Object not found
+  #021: (file name) line (number) in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #022: (file name) line (number) in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #023: (file name) line (number) in H5G__traverse_real(): special link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #024: (file name) line (number) in H5G__traverse_special(): user-defined link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #025: (file name) line (number) in H5G__traverse_ud(): traversal callback returned invalid ID
+    major: Symbol table
+    minor: Unable to find atom information (already closed?)
+  #026: (file name) line (number) in H5L__extern_traverse(): unable to open object
+    major: Links
+    minor: Can't open object
+  #027: (file name) line (number) in H5O_open_name(): object not found
+    major: Object header
+    minor: Object not found
+  #028: (file name) line (number) in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #029: (file name) line (number) in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #030: (file name) line (number) in H5G__traverse_real(): special link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #031: (file name) line (number) in H5G__traverse_special(): too many links
+    major: Links
+    minor: Too many soft links in path
+HDF5-DIAG: Error detected in HDF5 (version (number)) thread (IDs):
+  #000: (file name) line (number) in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #001: (file name) line (number) in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #002: (file name) line (number) in H5G__traverse_real(): special link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #003: (file name) line (number) in H5G__traverse_special(): user-defined link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #004: (file name) line (number) in H5G__traverse_ud(): traversal callback returned invalid ID
+    major: Symbol table
+    minor: Unable to find atom information (already closed?)
+  #005: (file name) line (number) in H5L__extern_traverse(): unable to open object
+    major: Links
+    minor: Can't open object
+  #006: (file name) line (number) in H5O_open_name(): object not found
+    major: Object header
+    minor: Object not found
+  #007: (file name) line (number) in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #008: (file name) line (number) in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #009: (file name) line (number) in H5G__traverse_real(): special link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #010: (file name) line (number) in H5G__traverse_special(): user-defined link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #011: (file name) line (number) in H5G__traverse_ud(): traversal callback returned invalid ID
+    major: Symbol table
+    minor: Unable to find atom information (already closed?)
+  #012: (file name) line (number) in H5L__extern_traverse(): unable to open object
+    major: Links
+    minor: Can't open object
+  #013: (file name) line (number) in H5O_open_name(): object not found
+    major: Object header
+    minor: Object not found
+  #014: (file name) line (number) in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #015: (file name) line (number) in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #016: (file name) line (number) in H5G__traverse_real(): special link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #017: (file name) line (number) in H5G__traverse_special(): user-defined link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #018: (file name) line (number) in H5G__traverse_ud(): traversal callback returned invalid ID
+    major: Symbol table
+    minor: Unable to find atom information (already closed?)
+  #019: (file name) line (number) in H5L__extern_traverse(): unable to open object
+    major: Links
+    minor: Can't open object
+  #020: (file name) line (number) in H5O_open_name(): object not found
+    major: Object header
+    minor: Object not found
+  #021: (file name) line (number) in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #022: (file name) line (number) in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #023: (file name) line (number) in H5G__traverse_real(): special link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #024: (file name) line (number) in H5G__traverse_special(): user-defined link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #025: (file name) line (number) in H5G__traverse_ud(): traversal callback returned invalid ID
+    major: Symbol table
+    minor: Unable to find atom information (already closed?)
+  #026: (file name) line (number) in H5L__extern_traverse(): unable to open object
+    major: Links
+    minor: Can't open object
+  #027: (file name) line (number) in H5O_open_name(): object not found
+    major: Object header
+    minor: Object not found
+  #028: (file name) line (number) in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #029: (file name) line (number) in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #030: (file name) line (number) in H5G__traverse_real(): special link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #031: (file name) line (number) in H5G__traverse_special(): too many links
+    major: Links
+    minor: Too many soft links in path
+
+========================================
+h5dump error: missing file name
+
+========================================
+HDF5-DIAG: Error detected in HDF5 (version (number)) thread (IDs):
+  #000: (file name) line (number) in H5Rget_obj_type3(): unable to get object token
+    major: References
+    minor: Can't get value
+  #001: (file name) line (number) in H5R__get_obj_token(): NULL token size
+    major: References
+    minor: Unable to copy object
+HDF5-DIAG: Error detected in HDF5 (version (number)) thread (IDs):
+  #000: (file name) line (number) in H5Rget_obj_type3(): unable to get object token
+    major: References
+    minor: Can't get value
+  #001: (file name) line (number) in H5R__get_obj_token(): NULL token size
+    major: References
+    minor: Unable to copy object
+H5tools-DIAG: Error detected in HDF5:tools (version (number)) thread (IDs):
+  #000: (file name) line (number) in h5tools_dump_data(): H5Rget_obj_type3 H5R_OBJECT1 failed
+    major: Failure in tools library
+    minor: error in function
+  #001: (file name) line (number) in h5tools_dump_data(): H5Rget_obj_type3 H5R_OBJECT1 failed
+    major: Failure in tools library
+    minor: error in function
+
+========================================
+HDF5-DIAG: Error detected in HDF5 (version (number)) thread (IDs):
+  #000: (file name) line (number) in H5Gopen2(): unable to open group
+    major: Symbol table
+    minor: Can't open object
+  #001: (file name) line (number) in H5VL_group_open(): group open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #002: (file name) line (number) in H5VL__group_open(): group open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #003: (file name) line (number) in H5VL__native_group_open(): unable to open group
+    major: Symbol table
+    minor: Can't open object
+  #004: (file name) line (number) in H5G__open_name(): group not found
+    major: Symbol table
+    minor: Object not found
+  #005: (file name) line (number) in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #006: (file name) line (number) in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #007: (file name) line (number) in H5G__traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #008: (file name) line (number) in H5G__loc_find_cb(): object 'y' doesn't exist
+    major: Symbol table
+    minor: Object not found
+h5dump error: unable to open group "/y"
+
+========================================
+HDF5-DIAG: Error detected in HDF5 (version (number)) thread (IDs):
+  #000: (file name) line (number) in H5Topen2(): unable to open named datatype
+    major: Datatype
+    minor: Can't open object
+  #001: (file name) line (number) in H5VL_datatype_open(): datatype open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #002: (file name) line (number) in H5VL__datatype_open(): datatype open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #003: (file name) line (number) in H5VL__native_datatype_open(): unable to open named datatype
+    major: Datatype
+    minor: Can't open object
+  #004: (file name) line (number) in H5T__open_name(): not found
+    major: Datatype
+    minor: Object not found
+  #005: (file name) line (number) in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #006: (file name) line (number) in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #007: (file name) line (number) in H5G__traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #008: (file name) line (number) in H5G__loc_find_cb(): object '#6632' doesn't exist
+    major: Symbol table
+    minor: Object not found
+
+========================================
+HDF5-DIAG: Error detected in HDF5 (version (number)) thread (IDs):
+  #000: (file name) line (number) in H5Oopen(): unable to open object
+    major: Object header
+    minor: Can't open object
+  #001: (file name) line (number) in H5VL_object_open(): object open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #002: (file name) line (number) in H5VL__object_open(): object open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #003: (file name) line (number) in H5VL__native_object_open(): unable to open object by name
+    major: Object header
+    minor: Can't open object
+  #004: (file name) line (number) in H5O_open_name(): object not found
+    major: Object header
+    minor: Object not found
+  #005: (file name) line (number) in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #006: (file name) line (number) in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #007: (file name) line (number) in H5G__traverse_real(): special link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #008: (file name) line (number) in H5G__traverse_special(): user-defined link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #009: (file name) line (number) in H5G__traverse_ud(): traversal callback returned invalid ID
+    major: Symbol table
+    minor: Unable to find atom information (already closed?)
+  #010: (file name) line (number) in H5L__extern_traverse(): unable to open external file, external link file name = 'filename'
+    major: Links
+    minor: Unable to open file
+HDF5-DIAG: Error detected in HDF5 (version (number)) thread (IDs):
+  #000: (file name) line (number) in H5Oopen(): unable to open object
+    major: Object header
+    minor: Can't open object
+  #001: (file name) line (number) in H5VL_object_open(): object open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #002: (file name) line (number) in H5VL__object_open(): object open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #003: (file name) line (number) in H5VL__native_object_open(): unable to open object by name
+    major: Object header
+    minor: Can't open object
+  #004: (file name) line (number) in H5O_open_name(): object not found
+    major: Object header
+    minor: Object not found
+  #005: (file name) line (number) in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #006: (file name) line (number) in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #007: (file name) line (number) in H5G__traverse_real(): special link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #008: (file name) line (number) in H5G__traverse_special(): user-defined link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #009: (file name) line (number) in H5G__traverse_ud(): traversal callback returned invalid ID
+    major: Symbol table
+    minor: Unable to find atom information (already closed?)
+  #010: (file name) line (number) in H5L__extern_traverse(): unable to open external file, external link file name = 'anotherfile'
+    major: Links
+    minor: Unable to open file
+
+========================================
+HDF5-DIAG: Error detected in HDF5 (version (number)) thread (IDs):
+  #000: (file name) line (number) in H5Oopen(): unable to open object
+    major: Object header
+    minor: Can't open object
+  #001: (file name) line (number) in H5VL_object_open(): object open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #002: (file name) line (number) in H5VL__object_open(): object open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #003: (file name) line (number) in H5VL__native_object_open(): unable to open object by name
+    major: Object header
+    minor: Can't open object
+  #004: (file name) line (number) in H5O_open_name(): object not found
+    major: Object header
+    minor: Object not found
+  #005: (file name) line (number) in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #006: (file name) line (number) in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #007: (file name) line (number) in H5G__traverse_real(): special link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #008: (file name) line (number) in H5G__traverse_special(): user-defined link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #009: (file name) line (number) in H5G__traverse_ud(): traversal callback returned invalid ID
+    major: Symbol table
+    minor: Unable to find atom information (already closed?)
+  #010: (file name) line (number) in H5L__extern_traverse(): unable to open object
+    major: Links
+    minor: Can't open object
+  #011: (file name) line (number) in H5O_open_name(): object not found
+    major: Object header
+    minor: Object not found
+  #012: (file name) line (number) in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #013: (file name) line (number) in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #014: (file name) line (number) in H5G__traverse_real(): special link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #015: (file name) line (number) in H5G__traverse_special(): symbolic link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #016: (file name) line (number) in H5G__traverse_slink(): unable to follow symbolic link
+    major: Symbol table
+    minor: Object not found
+  #017: (file name) line (number) in H5G__traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #018: (file name) line (number) in H5G__traverse_slink_cb(): component not found
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (version (number)) thread (IDs):
+  #000: (file name) line (number) in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #001: (file name) line (number) in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #002: (file name) line (number) in H5G__traverse_real(): special link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #003: (file name) line (number) in H5G__traverse_special(): user-defined link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #004: (file name) line (number) in H5G__traverse_ud(): traversal callback returned invalid ID
+    major: Symbol table
+    minor: Unable to find atom information (already closed?)
+  #005: (file name) line (number) in H5L__extern_traverse(): unable to open object
+    major: Links
+    minor: Can't open object
+  #006: (file name) line (number) in H5O_open_name(): object not found
+    major: Object header
+    minor: Object not found
+  #007: (file name) line (number) in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #008: (file name) line (number) in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #009: (file name) line (number) in H5G__traverse_real(): special link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #010: (file name) line (number) in H5G__traverse_special(): user-defined link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #011: (file name) line (number) in H5G__traverse_ud(): traversal callback returned invalid ID
+    major: Symbol table
+    minor: Unable to find atom information (already closed?)
+  #012: (file name) line (number) in H5L__extern_traverse(): unable to open object
+    major: Links
+    minor: Can't open object
+  #013: (file name) line (number) in H5O_open_name(): object not found
+    major: Object header
+    minor: Object not found
+  #014: (file name) line (number) in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #015: (file name) line (number) in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #016: (file name) line (number) in H5G__traverse_real(): special link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #017: (file name) line (number) in H5G__traverse_special(): user-defined link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #018: (file name) line (number) in H5G__traverse_ud(): traversal callback returned invalid ID
+    major: Symbol table
+    minor: Unable to find atom information (already closed?)
+  #019: (file name) line (number) in H5L__extern_traverse(): unable to open object
+    major: Links
+    minor: Can't open object
+  #020: (file name) line (number) in H5O_open_name(): object not found
+    major: Object header
+    minor: Object not found
+  #021: (file name) line (number) in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #022: (file name) line (number) in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #023: (file name) line (number) in H5G__traverse_real(): special link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #024: (file name) line (number) in H5G__traverse_special(): user-defined link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #025: (file name) line (number) in H5G__traverse_ud(): traversal callback returned invalid ID
+    major: Symbol table
+    minor: Unable to find atom information (already closed?)
+  #026: (file name) line (number) in H5L__extern_traverse(): unable to open object
+    major: Links
+    minor: Can't open object
+  #027: (file name) line (number) in H5O_open_name(): object not found
+    major: Object header
+    minor: Object not found
+  #028: (file name) line (number) in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #029: (file name) line (number) in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #030: (file name) line (number) in H5G__traverse_real(): special link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #031: (file name) line (number) in H5G__traverse_special(): too many links
+    major: Links
+    minor: Too many soft links in path
+HDF5-DIAG: Error detected in HDF5 (version (number)) thread (IDs):
+  #000: (file name) line (number) in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #001: (file name) line (number) in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #002: (file name) line (number) in H5G__traverse_real(): special link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #003: (file name) line (number) in H5G__traverse_special(): user-defined link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #004: (file name) line (number) in H5G__traverse_ud(): traversal callback returned invalid ID
+    major: Symbol table
+    minor: Unable to find atom information (already closed?)
+  #005: (file name) line (number) in H5L__extern_traverse(): unable to open object
+    major: Links
+    minor: Can't open object
+  #006: (file name) line (number) in H5O_open_name(): object not found
+    major: Object header
+    minor: Object not found
+  #007: (file name) line (number) in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #008: (file name) line (number) in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #009: (file name) line (number) in H5G__traverse_real(): special link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #010: (file name) line (number) in H5G__traverse_special(): user-defined link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #011: (file name) line (number) in H5G__traverse_ud(): traversal callback returned invalid ID
+    major: Symbol table
+    minor: Unable to find atom information (already closed?)
+  #012: (file name) line (number) in H5L__extern_traverse(): unable to open object
+    major: Links
+    minor: Can't open object
+  #013: (file name) line (number) in H5O_open_name(): object not found
+    major: Object header
+    minor: Object not found
+  #014: (file name) line (number) in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #015: (file name) line (number) in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #016: (file name) line (number) in H5G__traverse_real(): special link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #017: (file name) line (number) in H5G__traverse_special(): user-defined link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #018: (file name) line (number) in H5G__traverse_ud(): traversal callback returned invalid ID
+    major: Symbol table
+    minor: Unable to find atom information (already closed?)
+  #019: (file name) line (number) in H5L__extern_traverse(): unable to open object
+    major: Links
+    minor: Can't open object
+  #020: (file name) line (number) in H5O_open_name(): object not found
+    major: Object header
+    minor: Object not found
+  #021: (file name) line (number) in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #022: (file name) line (number) in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #023: (file name) line (number) in H5G__traverse_real(): special link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #024: (file name) line (number) in H5G__traverse_special(): user-defined link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #025: (file name) line (number) in H5G__traverse_ud(): traversal callback returned invalid ID
+    major: Symbol table
+    minor: Unable to find atom information (already closed?)
+  #026: (file name) line (number) in H5L__extern_traverse(): unable to open object
+    major: Links
+    minor: Can't open object
+  #027: (file name) line (number) in H5O_open_name(): object not found
+    major: Object header
+    minor: Object not found
+  #028: (file name) line (number) in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #029: (file name) line (number) in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #030: (file name) line (number) in H5G__traverse_real(): special link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #031: (file name) line (number) in H5G__traverse_special(): too many links
+    major: Links
+    minor: Too many soft links in path
+
+========================================
+HDF5-DIAG: Error detected in HDF5 (version (number)) thread (IDs):
+  #000: (file name) line (number) in H5Oopen(): unable to open object
+    major: Object header
+    minor: Can't open object
+  #001: (file name) line (number) in H5VL_object_open(): object open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #002: (file name) line (number) in H5VL__object_open(): object open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #003: (file name) line (number) in H5VL__native_object_open(): unable to open object by name
+    major: Object header
+    minor: Can't open object
+  #004: (file name) line (number) in H5O_open_name(): object not found
+    major: Object header
+    minor: Object not found
+  #005: (file name) line (number) in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #006: (file name) line (number) in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #007: (file name) line (number) in H5G__traverse_real(): special link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #008: (file name) line (number) in H5G__traverse_special(): user-defined link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #009: (file name) line (number) in H5G__traverse_ud(): traversal callback returned invalid ID
+    major: Symbol table
+    minor: Unable to find atom information (already closed?)
+  #010: (file name) line (number) in H5L__extern_traverse(): unable to open external file, external link file name = 'fname'
+    major: Links
+    minor: Unable to open file
+
+========================================
+HDF5-DIAG: Error detected in HDF5 (version (number)) thread (IDs):
+  #000: (file name) line (number) in H5Dopen2(): unable to open dataset
+    major: Dataset
+    minor: Can't open object
+  #001: (file name) line (number) in H5VL_dataset_open(): dataset open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #002: (file name) line (number) in H5VL__dataset_open(): dataset open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #003: (file name) line (number) in H5VL__native_dataset_open(): unable to open dataset
+    major: Dataset
+    minor: Can't open object
+  #004: (file name) line (number) in H5D__open_name(): not found
+    major: Dataset
+    minor: Object not found
+  #005: (file name) line (number) in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #006: (file name) line (number) in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #007: (file name) line (number) in H5G__traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #008: (file name) line (number) in H5G__loc_find_cb(): object 'dset3' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (version (number)) thread (IDs):
+  #000: (file name) line (number) in H5Lget_info2(): unable to get link info
+    major: Links
+    minor: Can't get value
+  #001: (file name) line (number) in H5VL_link_get(): link get failed
+    major: Virtual Object Layer
+    minor: Can't get value
+  #002: (file name) line (number) in H5VL__link_get(): link get failed
+    major: Virtual Object Layer
+    minor: Can't get value
+  #003: (file name) line (number) in H5VL__native_link_get(): unable to get link info
+    major: Links
+    minor: Object not found
+  #004: (file name) line (number) in H5L_get_info(): name doesn't exist
+    major: Links
+    minor: Object already exists
+  #005: (file name) line (number) in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #006: (file name) line (number) in H5G__traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #007: (file name) line (number) in H5L__get_info_cb(): name doesn't exist
+    major: Links
+    minor: Object not found
+h5dump error: unable to get link info from "dset3"
+
+========================================
+h5dump error: Packed Bit offset+length value(65) too large. Max is 64
+
+========================================
+h5dump error: Packed Bit offset+length value(33) too large. Max is 32
+
+========================================
+HDF5-DIAG: Error detected in HDF5 (version (number)) thread (IDs):
+  #000: (file name) line (number) in H5Rget_obj_type3(): unable to get object token
+    major: References
+    minor: Can't get value
+  #001: (file name) line (number) in H5R__get_obj_token(): NULL token size
+    major: References
+    minor: Unable to copy object
+HDF5-DIAG: Error detected in HDF5 (version (number)) thread (IDs):
+  #000: (file name) line (number) in H5Rget_obj_type3(): unable to get object token
+    major: References
+    minor: Can't get value
+  #001: (file name) line (number) in H5R__get_obj_token(): NULL token size
+    major: References
+    minor: Unable to copy object
+HDF5-DIAG: Error detected in HDF5 (version (number)) thread (IDs):
+  #000: (file name) line (number) in H5Rget_obj_type3(): unable to get object token
+    major: References
+    minor: Can't get value
+  #001: (file name) line (number) in H5R__get_obj_token(): NULL token size
+    major: References
+    minor: Unable to copy object
+H5tools-DIAG: Error detected in HDF5:tools (version (number)) thread (IDs):
+  #000: (file name) line (number) in h5tools_dump_data(): H5Rget_obj_type3 H5R_OBJECT1 failed
+    major: Failure in tools library
+    minor: error in function
+  #001: (file name) line (number) in h5tools_dump_data(): H5Rget_obj_type3 H5R_OBJECT1 failed
+    major: Failure in tools library
+    minor: error in function
+  #002: (file name) line (number) in h5tools_dump_data(): H5Rget_obj_type3 H5R_OBJECT1 failed
+    major: Failure in tools library
+    minor: error in function
+
+========================================
+h5dump error: number of start dims (2) exceed dataset dims (1)
+
+========================================
+HDF5-DIAG: Error detected in HDF5 (version (number)) thread (IDs):
+  #000: (file name) line (number) in H5Oopen(): unable to open object
+    major: Object header
+    minor: Can't open object
+  #001: (file name) line (number) in H5VL_object_open(): object open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #002: (file name) line (number) in H5VL__object_open(): object open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #003: (file name) line (number) in H5VL__native_object_open(): unable to open object by name
+    major: Object header
+    minor: Can't open object
+  #004: (file name) line (number) in H5O_open_name(): object not found
+    major: Object header
+    minor: Object not found
+  #005: (file name) line (number) in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #006: (file name) line (number) in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #007: (file name) line (number) in H5G__traverse_real(): special link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #008: (file name) line (number) in H5G__traverse_special(): user-defined link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #009: (file name) line (number) in H5G__traverse_ud(): traversal callback returned invalid ID
+    major: Symbol table
+    minor: Unable to find atom information (already closed?)
+  #010: (file name) line (number) in H5L__extern_traverse(): unable to open external file, external link file name = 'somefile'
+    major: Links
+    minor: Unable to open file
+
+========================================
+h5dump error: Packed Bit offset+length value(33) too large. Max is 32
+
+========================================
+HDF5-DIAG: Error detected in HDF5 (version (number)) thread (IDs):
+  #000: (file name) line (number) in H5Oopen(): unable to open object
+    major: Object header
+    minor: Can't open object
+  #001: (file name) line (number) in H5VL_object_open(): object open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #002: (file name) line (number) in H5VL__object_open(): object open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #003: (file name) line (number) in H5VL__native_object_open(): unable to open object by name
+    major: Object header
+    minor: Can't open object
+  #004: (file name) line (number) in H5O_open_name(): object not found
+    major: Object header
+    minor: Object not found
+  #005: (file name) line (number) in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #006: (file name) line (number) in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #007: (file name) line (number) in H5G__traverse_real(): special link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #008: (file name) line (number) in H5G__traverse_special(): user-defined link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #009: (file name) line (number) in H5G__traverse_ud(): traversal callback returned invalid ID
+    major: Symbol table
+    minor: Unable to find atom information (already closed?)
+  #010: (file name) line (number) in H5L__extern_traverse(): unable to open external file, external link file name = 'somefile'
+    major: Links
+    minor: Unable to open file
+
+========================================
+HDF5-DIAG: Error detected in HDF5 (version (number)) thread (IDs):
+  #000: (file name) line (number) in H5Dopen2(): not found
+    major: Dataset
+    minor: Object not found
+  #001: (file name) line (number) in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #002: (file name) line (number) in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #003: (file name) line (number) in H5G__traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #004: (file name) line (number) in H5G_loc_find_cb(): object 'Dataset1' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (version (number)) thread (IDs):
+  #000: (file name) line (number) in H5Lget_info2(): unable to get link info
+    major: Symbol table
+    minor: Object not found
+  #001: (file name) line (number) in H5L_get_info(): name doesn't exist
+    major: Symbol table
+    minor: Object already exists
+  #002: (file name) line (number) in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #003: (file name) line (number) in H5G__traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #004: (file name) line (number) in H5L_get_info_cb(): name doesn't exist
+    major: Symbol table
+    minor: Object not found
+h5dump error: unable to get link info from "Dataset1"
+
+========================================
+h5dump error: Packed Bit offset value(64) must be between 0 and 63
+
+========================================
+h5dump error: unable to open file "non_existing.h5"
+
+========================================
+HDF5-DIAG: Error detected in HDF5 (version (number)) thread (IDs):
+  #000: (file name) line (number) in H5Rget_obj_type3(): unable to get object token
+    major: References
+    minor: Can't get value
+  #001: (file name) line (number) in H5R__get_obj_token(): NULL token size
+    major: References
+    minor: Unable to copy object
+HDF5-DIAG: Error detected in HDF5 (version (number)) thread (IDs):
+  #000: (file name) line (number) in H5Rget_obj_type3(): unable to get object token
+    major: References
+    minor: Can't get value
+  #001: (file name) line (number) in H5R__get_obj_token(): NULL token size
+    major: References
+    minor: Unable to copy object
+H5tools-DIAG: Error detected in HDF5:tools (version (number)) thread (IDs):
+  #000: (file name) line (number) in h5tools_dump_data(): H5Rget_obj_type3 H5R_OBJECT1 failed
+    major: Failure in tools library
+    minor: error in function
+  #001: (file name) line (number) in h5tools_dump_data(): H5Rget_obj_type3 H5R_OBJECT1 failed
+    major: Failure in tools library
+    minor: error in function
+
+========================================
+h5dump error: Packed Bit offset+length value(9) too large. Max is 8
+
+========================================
+HDF5-DIAG: Error detected in HDF5 (version (number)) thread (IDs):
+  #000: (file name) line (number) in H5Oopen(): unable to open object
+    major: Object header
+    minor: Can't open object
+  #001: (file name) line (number) in H5VL_object_open(): object open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #002: (file name) line (number) in H5VL__object_open(): object open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #003: (file name) line (number) in H5VL__native_object_open(): unable to open object by name
+    major: Object header
+    minor: Can't open object
+  #004: (file name) line (number) in H5O_open_name(): object not found
+    major: Object header
+    minor: Object not found
+  #005: (file name) line (number) in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #006: (file name) line (number) in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #007: (file name) line (number) in H5G__traverse_real(): special link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #008: (file name) line (number) in H5G__traverse_special(): user-defined link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #009: (file name) line (number) in H5G__traverse_ud(): traversal callback returned invalid ID
+    major: Symbol table
+    minor: Unable to find atom information (already closed?)
+  #010: (file name) line (number) in H5L__extern_traverse(): unable to open external file, external link file name = 'somefile'
+    major: Links
+    minor: Unable to open file
+
+========================================
+h5dump error: number of block dims (2) exceed dataset dims (1)
+
+========================================
+HDF5-DIAG: Error detected in HDF5 (version (number)) thread (IDs):
+  #000: (file name) line (number) in H5Aopen(): unable to open attribute: 'attr'
+    major: Attribute
+    minor: Can't open object
+  #001: (file name) line (number) in H5VL_attr_open(): attribute open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #002: (file name) line (number) in H5VL__attr_open(): attribute open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #003: (file name) line (number) in H5VL__native_attr_open(): unable to open attribute: 'attr'
+    major: Attribute
+    minor: Can't open object
+  #004: (file name) line (number) in H5A__open(): unable to load attribute info from object header for attribute: 'attr'
+    major: Attribute
+    minor: Can't open object
+  #005: (file name) line (number) in H5O__attr_open_by_name(): can't locate attribute: 'attr'
+    major: Attribute
+    minor: Object not found
+h5dump error: unable to open attribute "attr"
+
+========================================
+HDF5-DIAG: Error detected in HDF5 (version (number)) thread (IDs):
+  #000: (file name) line (number) in H5Oopen(): unable to open object
+    major: Object header
+    minor: Can't open object
+  #001: (file name) line (number) in H5VL_object_open(): object open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #002: (file name) line (number) in H5VL__object_open(): object open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #003: (file name) line (number) in H5VL__native_object_open(): unable to open object by name
+    major: Object header
+    minor: Can't open object
+  #004: (file name) line (number) in H5O_open_name(): object not found
+    major: Object header
+    minor: Object not found
+  #005: (file name) line (number) in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #006: (file name) line (number) in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #007: (file name) line (number) in H5G__traverse_real(): special link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #008: (file name) line (number) in H5G__traverse_special(): user-defined link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #009: (file name) line (number) in H5G__traverse_ud(): traversal callback returned invalid ID
+    major: Symbol table
+    minor: Unable to find atom information (already closed?)
+  #010: (file name) line (number) in H5L__extern_traverse(): unable to open external file, external link file name = 'fname'
+    major: Links
+    minor: Unable to open file
+
+========================================
+h5dump error: Packed Bit offset+length value(9) too large. Max is 8
+
+========================================
+h5dump error: Bad mask list(-1,1)
+
+========================================
+h5dump error: Packed Bit offset+length value(17) too large. Max is 16
+
+========================================
+HDF5-DIAG: Error detected in HDF5 (version (number)) thread (IDs):
+  #000: (file name) line (number) in H5Dread(): can't read data
+    major: Dataset
+    minor: Read failed
+  #001: (file name) line (number) in H5VL_dataset_read(): dataset read failed
+    major: Virtual Object Layer
+    minor: Read failed
+  #002: (file name) line (number) in H5VL__dataset_read(): dataset read failed
+    major: Virtual Object Layer
+    minor: Read failed
+  #003: (file name) line (number) in H5VL__native_dataset_read(): can't read data
+    major: Dataset
+    minor: Read failed
+  #004: (file name) line (number) in H5D__read(): can't read data
+    major: Dataset
+    minor: Read failed
+  #005: (file name) line (number) in H5D__chunk_read(): unable to read raw data chunk
+    major: Low-level I/O
+    minor: Read failed
+  #006: (file name) line (number) in H5D__chunk_lock(): data pipeline read failed
+    major: Dataset
+    minor: Filter operation failed
+  #007: (file name) line (number) in H5Z_pipeline(): required filter 'filter_fail_test' is not registered
+    major: Data filters
+    minor: Read failed
+  #008: (file name) line (number) in H5PL_load(): filter plugins disabled
+    major: Plugin for dynamically loaded library
+    minor: Unable to load metadata into cache
+h5dump error: unable to print data
+H5tools-DIAG: Error detected in HDF5:tools (version (number)) thread (IDs):
+  #000: (file name) line (number) in h5tools_dump_simple_dset(): H5Dread failed
+    major: Failure in tools library
+    minor: error in function
+
+========================================
+HDF5-DIAG: Error detected in HDF5 (version (number)) thread (IDs):
+  #000: (file name) line (number) in H5Dopen2(): unable to open dataset
+    major: Dataset
+    minor: Can't open object
+  #001: (file name) line (number) in H5VL_dataset_open(): dataset open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #002: (file name) line (number) in H5VL__dataset_open(): dataset open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #003: (file name) line (number) in H5VL__native_dataset_open(): unable to open dataset
+    major: Dataset
+    minor: Can't open object
+  #004: (file name) line (number) in H5D__open_name(): not found
+    major: Dataset
+    minor: Object not found
+  #005: (file name) line (number) in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #006: (file name) line (number) in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #007: (file name) line (number) in H5G__traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #008: (file name) line (number) in H5G__loc_find_cb(): object 'bogus' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (version (number)) thread (IDs):
+  #000: (file name) line (number) in H5Lget_info2(): unable to get link info
+    major: Links
+    minor: Can't get value
+  #001: (file name) line (number) in H5VL_link_get(): link get failed
+    major: Virtual Object Layer
+    minor: Can't get value
+  #002: (file name) line (number) in H5VL__link_get(): link get failed
+    major: Virtual Object Layer
+    minor: Can't get value
+  #003: (file name) line (number) in H5VL__native_link_get(): unable to get link info
+    major: Links
+    minor: Object not found
+  #004: (file name) line (number) in H5L_get_info(): name doesn't exist
+    major: Links
+    minor: Object already exists
+  #005: (file name) line (number) in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #006: (file name) line (number) in H5G__traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #007: (file name) line (number) in H5L__get_info_cb(): name doesn't exist
+    major: Links
+    minor: Object not found
+h5dump error: unable to get link info from "bogus"
+
+========================================
+h5dump error: Packed Bit length value(0) must be positive.
+
+========================================
+h5dump error: Too many masks requested (max. 8). Mask list(0,1,0,1,1,1,2,1,3,1,4,1,5,1,6,1,7,1)
+
+========================================
+HDF5-DIAG: Error detected in HDF5 (version (number)) thread (IDs):
+  #000: (file name) line (number) in H5Oopen(): unable to open object
+    major: Object header
+    minor: Can't open object
+  #001: (file name) line (number) in H5VL_object_open(): object open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #002: (file name) line (number) in H5VL__object_open(): object open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #003: (file name) line (number) in H5VL__native_object_open(): unable to open object by name
+    major: Object header
+    minor: Can't open object
+  #004: (file name) line (number) in H5O_open_name(): object not found
+    major: Object header
+    minor: Object not found
+  #005: (file name) line (number) in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #006: (file name) line (number) in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #007: (file name) line (number) in H5G__traverse_real(): special link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #008: (file name) line (number) in H5G__traverse_special(): user-defined link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #009: (file name) line (number) in H5G__traverse_ud(): traversal callback returned invalid ID
+    major: Symbol table
+    minor: Unable to find atom information (already closed?)
+  #010: (file name) line (number) in H5L__extern_traverse(): unable to open external file, external link file name = 'somefile'
+    major: Links
+    minor: Unable to open file
+
+========================================
+h5dump error: number of count dims (2) exceed dataset dims (1)
+
+========================================
+h5dump error: number of stride dims (2) exceed dataset dims (1)
+
+========================================
+HDF5-DIAG: Error detected in HDF5 (version (number)) thread (IDs):
+  #000: (file name) line (number) in H5Dopen2(): unable to open dataset
+    major: Dataset
+    minor: Can't open object
+  #001: (file name) line (number) in H5VL_dataset_open(): dataset open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #002: (file name) line (number) in H5VL__dataset_open(): dataset open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #003: (file name) line (number) in H5VL__native_dataset_open(): unable to open dataset
+    major: Dataset
+    minor: Can't open object
+  #004: (file name) line (number) in H5D__open_name(): not found
+    major: Dataset
+    minor: Object not found
+  #005: (file name) line (number) in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #006: (file name) line (number) in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #007: (file name) line (number) in H5G__traverse_real(): special link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #008: (file name) line (number) in H5G__traverse_special(): symbolic link traversal failed
+    major: Links
+    minor: Link traversal failure
+  #009: (file name) line (number) in H5G__traverse_slink(): unable to follow symbolic link
+    major: Symbol table
+    minor: Object not found
+  #010: (file name) line (number) in H5G__traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #011: (file name) line (number) in H5G__traverse_slink_cb(): component not found
+    major: Symbol table
+    minor: Object not found
+
+========================================
+h5dump error: Packed Bit offset+length value(17) too large. Max is 16
+
+========================================
+h5dump error: Bad mask list(0,2,2,1,0,2,2,)
+
+========================================
+
+========================================
+
+========================================
+
+========================================
+
+========================================
+/bin/sh: ../run_base_refrate_mytest-m64.0000/leela_r_base.mytest-m64: No such file or directory
+
+========================================
+
+========================================
+
+========================================
+
+========================================
+/bin/sh: ../run_base_refrate_mytest-m64.0000/deepsjeng_r_base.mytest-m64: No such file or directory
+
+========================================
+
+========================================
+
+========================================
+
+========================================
+
+========================================
+
+========================================
+/bin/sh: ../run_base_refrate_mytest-m64.0000/leela_r_base.mytest-m64: No such file or directory
+
+========================================
+
+========================================
+
+========================================
+
+========================================
+
+========================================
+/bin/sh: ../run_base_refrate_mytest-m64.0000/deepsjeng_r_base.mytest-m64: No such file or directory
+
+========================================
+
+========================================
+
+========================================
+[/home/cmv6ru/Documents/00_github_repos/new_gun/gunrock/util/test_utils.cu, 59 @ gpu 21972] cudaSetDevice failed. (CUDA error 100: no CUDA-capable device is detected)
+[/home/cmv6ru/Documents/00_github_repos/new_gun/gunrock/util/test_utils.cu, 59 @ gpu 21972] cudaSetDevice failed. (CUDA error 100: no CUDA-capable device is detected)
+[/home/cmv6ru/Documents/00_github_repos/new_gun/gunrock/util/info.cuh, 447 @ gpu 21972] cudaStreamCreate failed. (CUDA error 100: no CUDA-capable device is detected)
+ERROR ENUMERATING CUDA DEVICES.
+Exiting.
+
+========================================
+[/p/lava/morteza/newgunrock/gunrock/util/sort_utils.cuh, 120 @ gpu 0] cub::DeviceRadixSort::SortPairsDescending failed (CUDA error 1: invalid argument)
+[/p/lava/morteza/newgunrock/gunrock/util/sort_utils.cuh, 120 @ gpu 0] cub::DeviceRadixSort::SortPairsDescending failed (CUDA error 1: invalid argument)
+[/p/lava/morteza/newgunrock/gunrock/util/sort_utils.cuh, 120 @ gpu 0] cub::DeviceRadixSort::SortPairsDescending failed (CUDA error 1: invalid argument)
+[/p/lava/morteza/newgunrock/gunrock/util/sort_utils.cuh, 120 @ gpu 0] cub::DeviceRadixSort::SortPairsDescending failed (CUDA error 1: invalid argument)
+
+========================================
+[/p/lava/morteza/newgunrock/gunrock/util/sort_utils.cuh, 120 @ gpu 0] cub::DeviceRadixSort::SortPairsDescending failed (CUDA error 1: invalid argument)
+[/p/lava/morteza/newgunrock/gunrock/util/sort_utils.cuh, 120 @ gpu 0] cub::DeviceRadixSort::SortPairsDescending failed (CUDA error 1: invalid argument)
+[/p/lava/morteza/newgunrock/gunrock/util/sort_utils.cuh, 120 @ gpu 0] cub::DeviceRadixSort::SortPairsDescending failed (CUDA error 1: invalid argument)
+[/p/lava/morteza/newgunrock/gunrock/util/sort_utils.cuh, 120 @ gpu 0] cub::DeviceRadixSort::SortPairsDescending failed (CUDA error 1: invalid argument)
+[/p/lava/morteza/newgunrock/gunrock/util/sort_utils.cuh, 120 @ gpu 0] cub::DeviceRadixSort::SortPairsDescending failed (CUDA error 1: invalid argument)
+[/p/lava/morteza/newgunrock/gunrock/util/sort_utils.cuh, 120 @ gpu 0] cub::DeviceRadixSort::SortPairsDescending failed (CUDA error 1: invalid argument)
+
+========================================
+[/p/lava/morteza/newgunrock/gunrock/util/sort_utils.cuh, 120 @ gpu 0] cub::DeviceRadixSort::SortPairsDescending failed (CUDA error 1: invalid argument)
+
+========================================
+[../../gunrock/util/sort_utils.cuh, 149 @ gpu 0] cub::DeviceRadixSort::SortPairsDescending failed (CUDA error 1: invalid argument)
+
+========================================
+[../../gunrock/util/sort_utils.cuh, 149 @ gpu 0] cub::DeviceRadixSort::SortPairsDescending failed (CUDA error 1: invalid argument)
+[../../gunrock/util/sort_utils.cuh, 149 @ gpu 0] cub::DeviceRadixSort::SortPairsDescending failed (CUDA error 1: invalid argument)
+[../../gunrock/util/sort_utils.cuh, 149 @ gpu 0] cub::DeviceRadixSort::SortPairsDescending failed (CUDA error 1: invalid argument)
+[../../gunrock/util/sort_utils.cuh, 149 @ gpu 0] cub::DeviceRadixSort::SortPairsDescending failed (CUDA error 1: invalid argument)
+
+========================================
+[../../gunrock/util/sort_utils.cuh, 149 @ gpu 0] cub::DeviceRadixSort::SortPairsDescending failed (CUDA error 1: invalid argument)
+[../../gunrock/util/sort_utils.cuh, 149 @ gpu 0] cub::DeviceRadixSort::SortPairsDescending failed (CUDA error 1: invalid argument)
+[../../gunrock/util/sort_utils.cuh, 149 @ gpu 0] cub::DeviceRadixSort::SortPairsDescending failed (CUDA error 1: invalid argument)
+[../../gunrock/util/sort_utils.cuh, 149 @ gpu 0] cub::DeviceRadixSort::SortPairsDescending failed (CUDA error 1: invalid argument)
+
+========================================
+terminate called after throwing an instance of 'std::logic_error'
+  what():  basic_string::_M_construct null not valid
+/var/spool/slurmd/job158804/slurm_script: line 20: 2267092 Aborted                 (core dumped) ./test_pr_11.8_x86_64 market /bigtemp/rgq5aw/newgunrock_datasets/indochina/indochina-2004/indochina-2004.mtx --undirected --max-iter=16 --iteration-num=1 --partition-method=random --tag=ipdps17_fig4 --jsondir=eval_fig4 --quick --normalized --traversal-mode=LB --device=0
+
+========================================
